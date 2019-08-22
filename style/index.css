@@ -21,9 +21,60 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+  }
+
+  .facebook {
+    background-color: #3b5998;
+    color: white;
+  }
+  .facebook:hover, 
+  .facebook:focus, 
+  .facebook:active, 
+  .facebook.active { 
+    color: white; 
+    background-color:  #2d416e; 
+    border-color: 2d416e; 
+  } 
+
+  .instagram {
+    background-color: #DD2A7B;
+    color: white;
+  }
+
+  .instagram:hover, 
+  .instagram:focus, 
+  .instagram:active, 
+  .instagram.active { 
+    color: white; 
+    background-color: rgb(161, 31, 90); 
+    border-color: rgb(161, 31, 90); 
+  } 
+
+  .tripadvisor {
+    background-color: #00af87;
+    color: #e9e8e8;
+  }
+
+  .tripadvisor:hover, 
+  .tripadvisor:focus, 
+  .tripadvisor:active, 
+  .tripadvisor.active { 
+    color: white; 
+    background-color: #037a5e; 
+    border-color: #037a5e; 
+  }
+
+  /* .fa-tripadvisor {
+    padding: 12px;
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
     background-color: #FE5F03;
 
-  }
+  } */
 
 /* Font Styles  --------------------------------------------------------*/
 h1,
